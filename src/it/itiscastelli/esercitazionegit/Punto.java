@@ -17,4 +17,7 @@ public class Punto {
         return y;
     }
 
+    public double getDistanzaTraDuePunti(Punto punto) {
+        return Math.sqrt(Math.pow(punto.getX()-this.getX(),2)+Math.pow(punto.getY()-this.getY(),2));
+    }
 }
