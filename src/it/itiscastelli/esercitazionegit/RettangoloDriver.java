@@ -1,6 +1,6 @@
 package it.itiscastelli.esercitazionegit;
 
-public class Main {
+public class RettangoloDriver {
 
     public static void main(String[] args) {
         Punto a, b, c, d;
